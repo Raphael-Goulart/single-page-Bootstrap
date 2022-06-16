@@ -1,7 +1,39 @@
+body {
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.titulo {
+    color: antiquewhite;
+}
+
 #paineis--sobre{
     margin-top: 20px;
 }
 
+#cursor {
+    cursor: pointer;
+}
+
+#cursor:hover {
+    color: antiquewhite;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
 #paragrafo {
     margin-top: 20px;
+}
+
+.titulo--depoimentos {
+    background-color: #0275D8;
+    padding-top: 25px;
+    color: #FFF;
+    margin-bottom: 0;
+    font-size: 24px;
+    padding-left: 20px;
 }
