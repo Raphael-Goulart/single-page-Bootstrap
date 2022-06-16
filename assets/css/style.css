@@ -29,10 +29,12 @@ body {
     margin-top: 20px;
 }
 
+
 .titulo--depoimentos {
-    background-color: #0275D8;
+    background-color: #2c3e506b;
     padding-top: 25px;
-    color: #FFF;
+    padding-bottom: 25px;
+    color: antiquewhite;
     margin-bottom: 0;
     font-size: 24px;
     padding-left: 20px;
