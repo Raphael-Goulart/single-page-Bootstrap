@@ -36,11 +36,13 @@
             </div>
         </nav>
 
-        <div class="banner">
-            <h1>TopCasaFina Arquitetura</h1>
-            <p>Projetando a sua casa dos sonhos.</p>
-            <button type="button" class="btn btn-primary btn-lg">Entre em contato</button>
-        </div>
+        <section class="container bannerWrapper">
+            <div class="banner">
+                <h1>TopCasaFina Arquitetura</h1>
+                <p>Projetando a sua casa dos sonhos.</p>
+                <button type="button" class="btn btn-primary btn-lg">Entre em contato</button>
+            </div>
+    </section>
     </header>
 
     <section class="container">
@@ -97,37 +99,45 @@
         <h2 class="titulo" id="nossos--projetos">Nossos Projetos</h2>
 
         <div class="row">
-            <figure class="thumbnail col-sm-6">
-                <img class="img-responsive" src="/assets/img/projetos/casa-castelo.png" alt="Imagem do Castelo" width="100%">
-                <figcaption class="caption">
-                    <h3>Casa Castelo</h3>
-                    <p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
-                </figcaption> 
-            </figure>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img class="img-responsive" src="/assets/img/projetos/casa-castelo.png" alt="Imagem do Castelo" width="100%">
+                    <figcaption class="caption">
+                        <h3>Casa Castelo</h3>
+                        <p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+                    </figcaption> 
+                </figure>
+            </div>
 
-            <figure class="thumbnail col-sm-6">
-                <img src="/assets/img/projetos/residencia-ludi.png" alt="Imagem Residencia" width="100%">
-                <figcaption class="caption">
-                    <h3>Residência Ludi</h3>
-                    <p>A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
-                </figcaption> 
-            </figure>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="/assets/img/projetos/residencia-ludi.png" alt="Imagem Residencia" width="100%">
+                    <figcaption class="caption">
+                        <h3>Residência Ludi</h3>
+                        <p>A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista Housing.</p>
+                    </figcaption> 
+                </figure>
+            </div>
 
-            <figure class="thumbnail col-sm-6">
-                <img src="/assets/img/projetos/casa-lago.png" alt="Imagem Casa no Lago" width="100%">
-                <figcaption class="caption">
-                    <h3>Casa Lago</h3>
-                    <p>A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
-                </figcaption> 
-            </figure>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="/assets/img/projetos/casa-lago.png" alt="Imagem Casa no Lago" width="100%">
+                    <figcaption class="caption">
+                        <h3>Casa Lago</h3>
+                        <p>A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidente da época.</p>
+                    </figcaption> 
+                </figure>
+            </div>
 
-            <figure class="thumbnail col-sm-6">
-                <img src="/assets/img/projetos/palacio-dionisio.png" alt="Imagem Palácio dionísio" width="100%">
-                <figcaption class="caption">
-                    <h3>Palácio Dionísio</h3>
-                    <p>O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
-                </figcaption> 
-            </figure>
+            <div class="col-sm-6 col-md-4 col-lg-3">
+                <figure class="thumbnail">
+                    <img src="/assets/img/projetos/palacio-dionisio.png" alt="Imagem Palácio dionísio" width="100%">
+                    <figcaption class="caption">
+                        <h3>Palácio Dionísio</h3>
+                        <p>O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
+                    </figcaption> 
+                </figure>
+            </div>
         </div>
         
     </section>
@@ -177,54 +187,55 @@
             <span class="sr-only">Next</span>
             </a>
         </div>
+    <div class="row">
+        <section class="container col-sm-6">
+            <h2 class="titulo" id="video">Vídeo Institucional</h2>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sVhukd7ut_M"></iframe>
+        </section>
 
-    <section class="container">
-        <h2 class="titulo" id="video">Vídeo Institucional</h2>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sVhukd7ut_M"></iframe>
-    </section>
-
-    <section class="container">
-        <h2 class="titulo" id="contato">Contato</h2>
-        <p class="titulo">Entre em contato conosco</p>
-        <form>
-            <div class="form-group">
-              <label for="contato-nome" class="titulo">Nome:</label>
-              <input type="text" class="form-control" id="contato-nome" placeholder=" Seu Nome">
-            </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1" class="titulo">Email:</label>
-              <div class="input-group">
-                <div class="input-group-addon">@</div>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite seu email">
-              </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-md-8">
-                    <div class="radio">
-                        <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                            <span class="titulo">Pessoa Física</span>
-                        </label>
-                        </div>
+        <section class="container col-sm-6">
+            <h2 class="titulo" id="contato">Contato</h2>
+            <p class="titulo">Entre em contato conosco</p>
+            <form>
+                <div class="form-group">
+                    <label for="contato-nome" class="titulo">Nome:</label>
+                    <input type="text" class="form-control" id="contato-nome" placeholder=" Seu Nome">
+                </div>
+                <div class="form-group">
+                <label for="exampleInputEmail1" class="titulo">Email:</label>
+                <div class="input-group">
+                    <div class="input-group-addon">@</div>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite seu email">
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-8">
                         <div class="radio">
-                        <label>
-                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                            <span class="titulo">Pessoa Jurídica</span>
-                        </label>
-                        </div>
+                            <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                <span class="titulo">Pessoa Física</span>
+                            </label>
+                            </div>
+                            <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                <span class="titulo">Pessoa Jurídica</span>
+                            </label>
+                            </div>
+                    </div>
+                    <div class="col-xs-6 col-md-4">
+                        <select class="form-control" id="menu">
+                            <option disabled selected>Escolha o imóvel</option>
+                            <option>Casa</option>
+                            <option>Apartamento</option>
+                            <option>Mansão</option>
+                            </select>
+                    </div>
                 </div>
-                <div class="col-xs-6 col-md-4">
-                    <select class="form-control" id="menu">
-                        <option disabled selected>Escolha o imóvel</option>
-                        <option>Casa</option>
-                        <option>Apartamento</option>
-                        <option>Mansão</option>
-                        </select>
-                </div>
-            </div>
-        </form>
-    </section>
+            </form>
+        </section>
+    </div>
 
     <footer class="footer-page">
         <address class="container">
