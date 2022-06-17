@@ -68,3 +68,19 @@ Tel: (11) 5571-2751 ou 5083-3884<br>
 E-mail: contato.topcasafina@alura.com.br
 
 --footer fim--
+
+itens selecionados no bootstrap
+Radio button (supported controls)
+Form
+carousel
+thumbnail
+panel
+img-responsive
+container
+embed
+button
+jumbotron
+selects (para aba de selecinar um menu está dentro de supported controls)
+navbar
+aria expanded false é para o navegador fechar o menu quando a página é recarregada
+span icon bar é um traço do hamburguinho

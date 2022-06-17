@@ -9,8 +9,42 @@
     <title>Single | Page</title>
 </head>
 <body>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="collapse-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sobre--nos">Sobre Nós</a></li>
+                        <li><a href="#nossos--projetos">Nossos Projetos</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="banner">
+            <h1>TopCasaFina Arquitetura</h1>
+            <p>Projetando a sua casa dos sonhos.</p>
+            <button type="button" class="btn btn-primary btn-lg">Entre em contato</button>
+        </div>
+    </header>
+
     <section class="container">
-        <h1 class="titulo">Sobre nós</h1>
+        <h1 class="titulo" id="sobre--nos">Sobre nós</h1>
         <img class="img-responsive" src="/assets/img/empresa.jpg" alt="Responsive image">
 
         <div class="panel-group" id="paineis--sobre">
@@ -58,7 +92,7 @@
     </section>
 
     <section  class="container">
-        <h2 class="titulo">Nossos Projetos</h2>
+        <h2 class="titulo" id="nossos--projetos">Nossos Projetos</h2>
 
         <figure class="thumbnail">
             <img class="img-responsive" src="/assets/img/projetos/casa-castelo.png" alt="Imagem do Castelo" width="100%">
@@ -95,7 +129,7 @@
     </section>
 
  
-            <h2 class="titulo--depoimentos">Depoimentos</h2>
+            <h2 class="titulo--depoimentos" id="depoimentos">Depoimentos</h2>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -141,13 +175,13 @@
         </div>
 
     <section class="container">
-        <h2 class="titulo">Vídeo Institucional</h2>
+        <h2 class="titulo" id="video">Vídeo Institucional</h2>
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/94yuIVdoevc"></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/sVhukd7ut_M"></iframe>
     </section>
 
     <section class="container">
-        <h2 class="titulo">Contato</h2>
+        <h2 class="titulo" id="contato">Contato</h2>
         <p class="titulo">Entre em contato conosco</p>
         <form>
             <div class="form-group">
@@ -166,7 +200,7 @@
                     <div class="radio">
                         <label>
                             <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                            <span class="titulo">Pessoa Jurídica</span>
+                            <span class="titulo">Pessoa Física</span>
                         </label>
                         </div>
                         <div class="radio">
@@ -187,6 +221,18 @@
             </div>
         </form>
     </section>
+
+    <footer class="footer-page">
+        <address class="container">
+                <strong>Arquitetura</strong><br>
+                Rua Vergueiro, 3185, Vila Mariana<br>
+                São Paulo, SP<br>
+                Tel: (11) 5571-2751 ou 5083-3884<br>
+                E-mail: contato.topcasafina@alura.com.br
+            </h5>
+        </address>
+    </footer>
+
     <script src="/assets/js/jquery-3.6.0.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
 </body>
