@@ -31,7 +31,7 @@ header h1 {
     transition: 0.5s;
 
     text-align: center;
-    color: antiquewhite;
+    color: rgb(248, 245, 240);
     background-color: #2c3e5080;
     padding: 20px;
     width: 65%;
@@ -81,6 +81,10 @@ header h1 {
     margin-top: 10px;
     margin-bottom: 0;
     padding-left: 15px;
+}
+
+#botao1{
+    background-color: black;
 }
 
 @media screen and (min-width: 768px) {
